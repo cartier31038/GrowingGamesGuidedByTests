@@ -1,0 +1,51 @@
+*~
+​
+# ---------------[ Unity generated ]------------------ #
+Temp/
+Obj/
+UnityGenerated/
+Library/
+ProjectSettings/ProjectVersion.txt
+sqlite3.dll
+​
+# ----[ Visual Studio / MonoDevelop generated ]------- #
+​
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+*.orig
+*.orig.meta
+​
+# -------------[ OS generated ]------------------------ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon^M^M
+ehthumbs.db
+Thumbs.db
+ProjectSettings/ProjectVersion.txt
+ProjectSettings/ProjectSettings.asset
+​
+# -------------[ Project ]------------------------ #
+Assets/Mad Compile Time Optimizer/Editor/MadCompileTimeOptimizer.Editor.dll.meta
+Temp-TexturePacker/
+Assets/UnityVS/
+!Assets/AudienceNetwork/*
+UnityVS.meta
+PlatformRunnerSettings.asset
+PlatformRunnerSettings.asset.meta
+Assets/AssetBundles/BundleData/
+ProjectSettings/GraphicsSettings.asset
+ProjectSettings/UnityConnectSettings.asset
+ProjectSettings/QualitySettings.asset
+.vscode/
+
