@@ -4,15 +4,16 @@ using System.Collections;
 
 public class LaserBullet : MonoBehaviour {
 
+    public const string TAG_LASER_BULLET = "LaserBullet";
+
 	public float Range;
 	public float Speed;
 
 	// Update is called once per frame
 	void Update () {
 
-		// Move ();
-		// CheckRange ();
-
+		 Move ();
+		 CheckRange ();
 	}
 
 
@@ -22,7 +23,8 @@ public class LaserBullet : MonoBehaviour {
 
 	void Move ()
 	{
-		throw new NotImplementedException();
+        Vector3 deltaPosition = new Vector3(0, Time.deltaTime * Speed, 0);
+        transform.Translate(deltaPosition);
 	}
 
 
@@ -31,6 +33,9 @@ public class LaserBullet : MonoBehaviour {
 	// Destroy (this.gameObject);
 
 	void CheckRange(){
-		throw new NotImplementedException();
+        if (transform.position.y >= Range)
+        {
+            Destroy(gameObject);
+        }
 	}
 }

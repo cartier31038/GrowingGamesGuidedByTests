@@ -10,6 +10,6 @@ public class Explosion : MonoBehaviour {
 	// Destroy(this.gameObject) to remove
 	void ExplosionEnd()
 	{
-		throw new NotImplementedException();
+        Destroy(gameObject);
 	}
 }

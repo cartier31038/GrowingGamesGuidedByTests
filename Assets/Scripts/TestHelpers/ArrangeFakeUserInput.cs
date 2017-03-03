@@ -14,15 +14,5 @@ public class ArrangeFakeUserInput : MonoBehaviour {
 
 		foreach(var component in components)
 			component.InputProxy = FakeInput;
-
-//        MoveSpaceShip();
 	}
-
-//    private void MoveSpaceShip()
-//    {   
-//        Vector3 targetPosition = Spaceship.transform.position;
-//        targetPosition.x = FakeInput.Horizontal;
-//        targetPosition.y = FakeInput.Vertical;
-//        Spaceship.transform.position = targetPosition;
-//    }
 }
